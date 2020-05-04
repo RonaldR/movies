@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home api call function 1`] = `
+<DocumentFragment>
+  <main
+    class="App"
+  >
+    <form>
+      <div
+        class="search loading"
+      >
+        <input
+          class="search__input"
+          data-testid="search"
+          placeholder="Search movie (Matrix)"
+          type="text"
+        />
+      </div>
+    </form>
+    <ul
+      class="movies"
+    />
+  </main>
+</DocumentFragment>
+`;
+
+exports[`Home renders search input 1`] = `
+<DocumentFragment>
+  <main
+    class="App"
+  >
+    <form>
+      <div
+        class="search loading"
+      >
+        <input
+          class="search__input"
+          data-testid="search"
+          placeholder="Search movie (Matrix)"
+          type="text"
+        />
+      </div>
+    </form>
+    <ul
+      class="movies"
+    />
+  </main>
+</DocumentFragment>
+`;

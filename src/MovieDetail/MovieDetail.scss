@@ -1,0 +1,50 @@
+.movie-detail {
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	background: #fafafa;
+	padding: 18px;
+}
+
+.movie-detail__details {
+	display: flex;
+	flex-wrap: wrap;
+
+	.poster {
+		width: 100%;
+		max-width: 300px;
+		margin-right: 12px;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.movie-detail__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	flex: 1;
+}
+
+.message,
+.back-link {
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	display: block;
+	margin: 16px;
+	text-decoration: none;
+}
+
+.back-link {
+	.back-link__icon {
+		transition: 0.2s;
+		display: inline-block;
+	}
+
+	&:hover .back-link__icon {
+		transform: translateX(-5px);
+	}
+}

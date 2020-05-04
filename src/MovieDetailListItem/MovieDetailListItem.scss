@@ -1,0 +1,13 @@
+.list-item {
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.list-item__label {
+	flex-basis: 90px;
+}
+
+.list-item__item {
+	font-weight: bold;
+	flex: 1 0 0;
+}
