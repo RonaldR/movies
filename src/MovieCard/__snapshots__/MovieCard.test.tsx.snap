@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movie card 1`] = `
+<DocumentFragment>
+  <li
+    class="movie-card"
+  >
+    <a
+      class="movie-card__link"
+      href="/detail/tt00000"
+    >
+      <figure
+        class="movie-card__poster"
+      >
+        <img
+          alt=""
+          src="img"
+        />
+      </figure>
+      <div
+        class="movie-card__title"
+      >
+        The Matrix (1999)
+      </div>
+    </a>
+  </li>
+</DocumentFragment>
+`;

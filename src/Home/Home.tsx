@@ -13,8 +13,7 @@ const App = () => {
 
   const getMovies = async (search: string = 'matrix') => {
     setLoading(true);
-    const response = await searchMovie(search);
-    const json = await response.json();
+    const json = await searchMovie(search);
     setLoading(false);
     return json.Search;
   }
@@ -40,7 +39,9 @@ const App = () => {
     <main className="App">
       <form onSubmit={(e) => e.preventDefault()}>
         <div className={`search ${loading ? 'loading' : ''}`}>
-          <input className="search__input" type="text" placeholder="Search movie (Matrix)" onChange={(e) => debouncedCallback(e.target.value)} data-testid="search" />
+          <input className="search__input" type="text" placeholder="Search movie (Matrix)"
+            onChange={(e) => debouncedCallback(e.target.value)}
+            data-testid="search" />
         </div>
       </form>
 

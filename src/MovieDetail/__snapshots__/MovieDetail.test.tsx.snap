@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movie detail fetch empty 1`] = `
+<DocumentFragment>
+  <article
+    class="movie-detail"
+  >
+    <p
+      class="message"
+    >
+      Error while getting your movie 😢
+    </p>
+  </article>
+  <a
+    class="back-link"
+    href="/"
+  >
+    <span
+      aria-label="arrow-back"
+      class="back-link__icon"
+      role="img"
+    >
+      ⬅️
+    </span>
+     Back to searching for more
+  </a>
+</DocumentFragment>
+`;
+
+exports[`movie detail fetch response false 1`] = `
+<DocumentFragment>
+  <article
+    class="movie-detail"
+  >
+    <p
+      class="message"
+    >
+      Movie not found 😢
+    </p>
+  </article>
+  <a
+    class="back-link"
+    href="/"
+  >
+    <span
+      aria-label="arrow-back"
+      class="back-link__icon"
+      role="img"
+    >
+      ⬅️
+    </span>
+     Back to searching for more
+  </a>
+</DocumentFragment>
+`;
+
+exports[`movie detail success 1`] = `
+<DocumentFragment>
+  <article
+    class="movie-detail"
+  >
+    <p
+      class="message"
+    >
+      ⏳
+    </p>
+  </article>
+  <a
+    class="back-link"
+    href="/"
+  >
+    <span
+      aria-label="arrow-back"
+      class="back-link__icon"
+      role="img"
+    >
+      ⬅️
+    </span>
+     Back to searching for more
+  </a>
+</DocumentFragment>
+`;
+
+exports[`movie detail success 2`] = `
+<DocumentFragment>
+  <article
+    class="movie-detail"
+  >
+    <h1>
+      The Matrix (1999)
+    </h1>
+    <p>
+      A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+    </p>
+    <div
+      class="movie-detail__details"
+    >
+      <figure
+        class="poster"
+      >
+        <img
+          alt=""
+          src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+        />
+      </figure>
+      <ul
+        class="movie-detail__list"
+      >
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Rating
+          </span>
+          <span
+            class="list-item__item"
+          >
+            <a
+              href="https://www.imdb.com/title/tt0133093/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              8.7 (IMDB)
+            </a>
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Metascore
+          </span>
+          <span
+            class="list-item__item"
+          >
+            73
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Director(s)
+          </span>
+          <span
+            class="list-item__item"
+          >
+            Lana Wachowski, Lilly Wachowski
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Writer(s)
+          </span>
+          <span
+            class="list-item__item"
+          >
+            Lilly Wachowski, Lana Wachowski
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Actors
+          </span>
+          <span
+            class="list-item__item"
+          >
+            Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Genre
+          </span>
+          <span
+            class="list-item__item"
+          >
+            Action, Sci-Fi
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Rated
+          </span>
+          <span
+            class="list-item__item"
+          >
+            R
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Runtime
+          </span>
+          <span
+            class="list-item__item"
+          >
+            136 min
+          </span>
+        </li>
+        <li
+          class="list-item"
+        >
+          <span
+            class="list-item__label"
+          >
+            Awards
+          </span>
+          <span
+            class="list-item__item"
+          >
+            Won 4 Oscars. Another 37 wins & 50 nominations.
+          </span>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <a
+    class="back-link"
+    href="/"
+  >
+    <span
+      aria-label="arrow-back"
+      class="back-link__icon"
+      role="img"
+    >
+      ⬅️
+    </span>
+     Back to searching for more
+  </a>
+</DocumentFragment>
+`;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home api call function 1`] = `
+exports[`Home successfull fetched movies 1`] = `
 <DocumentFragment>
   <main
     class="App"
@@ -24,14 +24,14 @@ exports[`Home api call function 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Home renders search input 1`] = `
+exports[`Home successfull fetched movies 2`] = `
 <DocumentFragment>
   <main
     class="App"
   >
     <form>
       <div
-        class="search loading"
+        class="search "
       >
         <input
           class="search__input"
@@ -43,7 +43,473 @@ exports[`Home renders search input 1`] = `
     </form>
     <ul
       class="movies"
-    />
+    >
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0133093"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix (1999)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0234215"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Reloaded (2003)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0242653"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BNzNlZTZjMDctZjYwNi00NzljLWIwN2QtZWZmYmJiYzQ0MTk2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Revolutions (2003)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0295432"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMTIzMTA4NDI4NF5BMl5BanBnXkFtZTYwNjg5Nzg4._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Revisited (2001)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0277828"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMjA4NTYwNjk0M15BMl5BanBnXkFtZTgwODk3MDMwMTE@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            Enter the Matrix (2003)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0451118"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BYWM2ZWU5MDUtYTU2ZS00ZDFmLWIyNGEtNWZkMjRmZjI2YzMzXkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix: Path of Neo (2005)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0303678"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BOTUwOTY3Mjg1MF5BMl5BanBnXkFtZTcwODI2MTAyMQ@@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            Armitage III: Dual Matrix (2002)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt1675286"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMTExMzY3NTQ1NjleQTJeQWpwZ15BbWU3MDAyMjk2NzM@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            CR: Enter the Matrix (2009)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0274085"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="N/A"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            Sex and the Matrix (2000)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0390244"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMTYxNTM5MDkwMF5BMl5BanBnXkFtZTcwMTAzMTEzMQ@@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Online (2005)
+          </div>
+        </a>
+      </li>
+    </ul>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`Home successfull fetched movies 3`] = `
+<DocumentFragment>
+  <main
+    class="App"
+  >
+    <form>
+      <div
+        class="search "
+      >
+        <input
+          class="search__input"
+          data-testid="search"
+          placeholder="Search movie (Matrix)"
+          type="text"
+        />
+      </div>
+    </form>
+    <ul
+      class="movies"
+    >
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0133093"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            Fight Club (1999)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0234215"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Reloaded (2003)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0242653"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BNzNlZTZjMDctZjYwNi00NzljLWIwN2QtZWZmYmJiYzQ0MTk2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Revolutions (2003)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0295432"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMTIzMTA4NDI4NF5BMl5BanBnXkFtZTYwNjg5Nzg4._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Revisited (2001)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0277828"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMjA4NTYwNjk0M15BMl5BanBnXkFtZTgwODk3MDMwMTE@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            Enter the Matrix (2003)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0451118"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BYWM2ZWU5MDUtYTU2ZS00ZDFmLWIyNGEtNWZkMjRmZjI2YzMzXkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix: Path of Neo (2005)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0303678"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BOTUwOTY3Mjg1MF5BMl5BanBnXkFtZTcwODI2MTAyMQ@@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            Armitage III: Dual Matrix (2002)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt1675286"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMTExMzY3NTQ1NjleQTJeQWpwZ15BbWU3MDAyMjk2NzM@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            CR: Enter the Matrix (2009)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0274085"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="N/A"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            Sex and the Matrix (2000)
+          </div>
+        </a>
+      </li>
+      <li
+        class="movie-card"
+      >
+        <a
+          class="movie-card__link"
+          href="/detail/tt0390244"
+        >
+          <figure
+            class="movie-card__poster"
+          >
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/M/MV5BMTYxNTM5MDkwMF5BMl5BanBnXkFtZTcwMTAzMTEzMQ@@._V1_SX300.jpg"
+            />
+          </figure>
+          <div
+            class="movie-card__title"
+          >
+            The Matrix Online (2005)
+          </div>
+        </a>
+      </li>
+    </ul>
   </main>
 </DocumentFragment>
 `;

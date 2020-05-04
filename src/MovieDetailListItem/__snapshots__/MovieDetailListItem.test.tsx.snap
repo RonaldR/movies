@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movie detail list item 1`] = `
+<DocumentFragment>
+  <li
+    class="list-item"
+  >
+    <span
+      class="list-item__label"
+    >
+      Best movie ever
+    </span>
+    <span
+      class="list-item__item"
+    >
+      yes
+    </span>
+  </li>
+</DocumentFragment>
+`;

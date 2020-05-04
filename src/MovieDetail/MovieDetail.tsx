@@ -15,9 +15,8 @@ const MovieDetail = () => {
     useEffect(() => {
         (async () => {
             try {
-                const response = await getMovie(movieId);
-                if (response.ok) {
-                    const json = await response.json();
+                const json = await getMovie(movieId);
+                if (json) {
                     if (json.Response === 'True') {
                         setMovie(json);
                     } else {
@@ -26,7 +25,6 @@ const MovieDetail = () => {
                 } else {
                     setMessage('Error while getting your movie 😢');
                 }
-
             } catch (error) {
                 setMessage('Error while getting your movie 😢');
             }
